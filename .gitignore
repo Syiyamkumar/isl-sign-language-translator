@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.env/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Datasets & Processed Features (Do NOT commit heavy binary files)
+ISL_CSLRT_Corpus/
+processed_data/
+*.npy
+*.mp4
+*.avi
+temp_input.mp4
+
+# Model Weights (store via Google Drive / Hugging Face releases instead)
+models/*.pth
+!models/.gitkeep
+
+# OS / Editor specific
+.DS_Store
+.vscode/
+.idea/
